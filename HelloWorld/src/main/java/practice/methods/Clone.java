@@ -22,5 +22,6 @@ public class Clone implements Cloneable {
     @Override
     public Object clone() throws CloneNotSupportedException {
         return super.clone(); // 얕은 복사
+        //
     }
 }
